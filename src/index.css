@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Jacquard+12&family=Noto+Sans+Hanunoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Figtree:ital,wght@0,300..900;1,300..900&family=Jacquard+12&family=Noto+Sans+Hanunoo&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
