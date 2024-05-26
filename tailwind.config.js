@@ -7,7 +7,8 @@ module.exports = {
 
       fontFamily: {
         body: ['Figtree'],
-        ubuntu: ['Ubuntu+Sans+Mono']
+        ubuntu: ['Ubuntu Sans Mono'],
+        blackops: ['Black Ops One']
       }
 
     },

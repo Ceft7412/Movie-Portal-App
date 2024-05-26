@@ -6,7 +6,9 @@ import MainWrapper from "../components/MainWrapper";
 const MainLayout = () => {
   return (
     <>
-      <Navbar />
+      <Sidebar />
+      <Navbar title="Movie App" />
+
       <MainWrapper />
     </>
   );
