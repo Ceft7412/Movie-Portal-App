@@ -1,0 +1,252 @@
+[
+  {
+    "title": "Inception",
+    "date_released": "2010-07-16",
+    "length": "148m",
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+    "genre": "Sci-Fi",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/inception.jpg",
+    "people_watch": 853
+  },
+  {
+    "title": "Parasite",
+    "date_released": "2019-05-30",
+    "length": "132m",
+    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "genre": "Thriller",
+    "country": "South Korea",
+    "file_location": "src/assets/images/movies/parasite.jpg",
+    "people_watch": 745
+  },
+  {
+    "title": "The Godfather",
+    "date_released": "1972-03-24",
+    "length": "175m",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "genre": "Crime",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/thegodfather.jpg",
+    "people_watch": 912
+  },
+  {
+    "title": "Spirited Away",
+    "date_released": "2001-07-20",
+    "length": "125m",
+    "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+    "genre": "Animation",
+    "country": "Japan",
+    "file_location": "src/assets/images/movies/spiritedaway.jpg",
+    "people_watch": 678
+  },
+  {
+    "title": "Schindler's List",
+    "date_released": "1993-12-15",
+    "length": "195m",
+    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "genre": "Biography",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/schindlerslist.jpg",
+    "people_watch": 799
+  },
+  {
+    "title": "The Dark Knight",
+    "date_released": "2008-07-18",
+    "length": "152m",
+    "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "genre": "Action",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/thedarkknight.jpg",
+    "people_watch": 1021
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "date_released": "1994-09-23",
+    "length": "142m",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "genre": "Drama",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/theszshawshankredemption.jpg",
+    "people_watch": 889
+  },
+  {
+    "title": "Fight Club",
+    "date_released": "1999-10-15",
+    "length": "139m",
+    "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+    "genre": "Drama",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/fightclub.jpg",
+    "people_watch": 756
+  },
+  {
+    "title": "Forrest Gump",
+    "date_released": "1994-07-06",
+    "length": "142m",
+    "description": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75.",
+    "genre": "Drama",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/forrestgump.jpg",
+    "people_watch": 845
+  },
+  {
+    "title": "The Matrix",
+    "date_released": "1999-03-31",
+    "length": "136m",
+    "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    "genre": "Sci-Fi",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/thematrix.jpg",
+    "people_watch": 923
+  },
+  {
+    "title": "Interstellar",
+    "date_released": "2014-11-07",
+    "length": "169m",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "genre": "Sci-Fi",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/interstellar.jpg",
+    "people_watch": 987
+  },
+  {
+    "title": "The Lion King",
+    "date_released": "1994-06-24",
+    "length": "88m",
+    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself.",
+    "genre": "Animation",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/lionking.jpg",
+    "people_watch": 764
+  },
+  {
+    "title": "Gladiator",
+    "date_released": "2000-05-05",
+    "length": "155m",
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "genre": "Action",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/gladiator.jpg",
+    "people_watch": 803
+  },
+  {
+    "title": "Saving Private Ryan",
+    "date_released": "1998-07-24",
+    "length": "169m",
+    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+    "genre": "War",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/savingprivateryan.jpg",
+    "people_watch": 821
+  },
+  {
+    "title": "Avengers: Endgame",
+    "date_released": "2019-04-26",
+    "length": "181m",
+    "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+    "genre": "Action",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/avengersendgame.jpg",
+    "people_watch": 1102
+  },
+  {
+    "title": "Titanic",
+    "date_released": "1997-12-19",
+    "length": "195m",
+    "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "genre": "Romance",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/titanic.jpg",
+    "people_watch": 904
+  },
+  {
+    "title": "Star Wars: Episode IV - A New Hope",
+    "date_released": "1977-05-25",
+    "length": "121m",
+    "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+    "genre": "Sci-Fi",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/starwars.jpg",
+    "people_watch": 987
+  },
+  {
+    "title": "Jurassic Park",
+    "date_released": "1993-06-11",
+    "length": "127m",
+    "description": "A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.",
+    "genre": "Adventure",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/jurassicpark.jpg",
+    "people_watch": 765
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "date_released": "2001-12-19",
+    "length": "178m",
+    "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+    "genre": "Fantasy",
+    "country": "New Zealand",
+    "file_location": "src/assets/images/movies/lordoftherings.jpg",
+    "people_watch": 890
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "date_released": "1991-02-14",
+    "length": "118m",
+    "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims.",
+    "genre": "Thriller",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/silenceofthelambs.jpg",
+    "people_watch": 743
+  },
+  {
+    "title": "Pulp Fiction",
+    "date_released": "1994-10-14",
+    "length": "154m",
+    "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "genre": "Crime",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/pulpfiction.jpg",
+    "people_watch": 812
+  },
+  {
+    "title": "The Good, the Bad and the Ugly",
+    "date_released": "1966-12-29",
+    "length": "178m",
+    "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
+    "genre": "Western",
+    "country": "Italy",
+    "file_location": "src/assets/images/movies/goodbadugly.jpg",
+    "people_watch": 678
+  },
+  {
+    "title": "The Pianist",
+    "date_released": "2002-09-25",
+    "length": "150m",
+    "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+    "genre": "Biography",
+    "country": "France",
+    "file_location": "src/assets/images/movies/thepianist.jpg",
+    "people_watch": 799
+  },
+  {
+    "title": "The Departed",
+    "date_released": "2006-10-06",
+    "length": "151m",
+    "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+    "genre": "Crime",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/thedeparted.jpg",
+    "people_watch": 822
+  },
+  {
+    "title": "The Shining",
+    "date_released": "1980-05-23",
+    "length": "146m",
+    "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+    "genre": "Horror",
+    "country": "USA",
+    "file_location": "src/assets/images/movies/theshining.jpg",
+    "people_watch": 733
+  }
+]

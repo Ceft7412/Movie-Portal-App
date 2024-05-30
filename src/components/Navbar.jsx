@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import PersonRoundedIcon from "@mui/icons-material/PersonRounded";
-const Navbar = ({ title }) => {
+const Navbar = ({ title, onMenuClick }) => {
   const [searchInputText, setSearchInputText] = useState("");
   const [searchResults, setSearchResults] = useState("");
+
   const [movieFocused, setMovieFocused] = useState(false);
   const onEnter = (e) => {
     e.preventDefault();
@@ -16,11 +17,14 @@ const Navbar = ({ title }) => {
       <div className="col flex flex-col lg:block lg:relative lg:pb-2">
         {/* first item */}
         <div className="nav-wrapper-fl flex items-center h-full text-white justify-between">
-          <div className="left flex items-center gap-10">
-            <div className="menu">
+          <div className="left flex items-center gap-5">
+            <div
+              className="menu flex align-middle cursor-pointer "
+              onClick={onMenuClick}
+            >
               <MenuRoundedIcon />
             </div>
-            <div className="logo">
+            <div className="logo flex align-middle">
               <span className="text-logo text-2xl whitespace-nowrap font-blackops">
                 {title}
               </span>
@@ -41,7 +45,7 @@ const Navbar = ({ title }) => {
         <div className="item md:mr-0 relative lg:absolute lg:top-1 lg:left-[50%]">
           <form onSubmit={onEnter}>
             <input
-              className="p-2 px-2 font-2 text-black w-full lg:w-[350px]  rounded-md pl-12 lg:mr-32 outline-0"
+              className="p-2 px-2 font-2 text-black w-full lg:w-[350px]   rounded-md pl-12 lg:mr-32 outline-0"
               placeholder="Search for a movie...    "
               id="movie"
               type="text"

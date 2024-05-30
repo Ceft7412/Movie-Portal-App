@@ -1,23 +1,32 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Dashboard from "./views/Admin/Dashboard";
-import Transaction from "./views/Admin/Transaction";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+  Route,
+} from "react-router-dom";
+
+//pages
+import CardsContainer from "./views/pages/Dashboard";
+import Movies from "./views/pages/Movies";
 import MainLayout from "./layouts/MainLayout";
 import GuestLayout from "./layouts/GuestLayout";
 import Login from "./views/Login";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/" element={<MainLayout />}>
+        <Route path="/dashboard" element={<CardsContainer />} />
+        <Route path="/movies" element={<Movies />} />
+      </Route>
+      <Route element={<GuestLayout />}>
+        <Route index element={<Login />} />
+      </Route>
+    </Route>
+  )
+);
 const App = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route element={<MainLayout />}>
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/transaction" element={<Transaction />} />
-        </Route>
-        <Route element={<GuestLayout />}>
-          <Route path="/" element={<Login />} />
-        </Route>
-      </Routes>
-    </Router>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
