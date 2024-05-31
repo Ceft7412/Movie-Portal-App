@@ -30,16 +30,7 @@ const Navbar = ({ title, onMenuClick }) => {
               </span>
             </div>
           </div>
-          <div className="right sm:flex items-center gap-10 m-0">
-            <div className="item sm:flex items-center group hover:bg-gray-600 rounded-md p-2 cursor-pointer">
-              <span className="text-white group-hover:text-gray-300">
-                <PersonRoundedIcon />
-              </span>
-              <span className="text-white hidden sm:block group-hover:text-gray-300">
-                Login
-              </span>
-            </div>
-          </div>
+          <div className="right sm:flex items-center gap-10 m-0"></div>
         </div>
         {/* second item */}
         <div className="item md:mr-0 relative lg:absolute lg:top-1 lg:left-[50%]">

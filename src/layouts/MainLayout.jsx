@@ -4,10 +4,13 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import MainWrapper from "../components/MainWrapper";
 
+export const SearchContext = React.createContext();
 export const LayoutContext = createContext();
 
 const MainLayout = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth > 1280);
+
+  const [searchTerm, setSearchTerm] = useState('');
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);

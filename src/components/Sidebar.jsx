@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
 import DataMovies from "./movies.json";
 import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
 import MovieCreationRoundedIcon from "@mui/icons-material/MovieCreationRounded";

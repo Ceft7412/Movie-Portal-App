@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import { useState, useEffect, useContext } from "react";
 import { LayoutContext } from "./../layouts/MainLayout";
 import { Link } from "react-router-dom";
 import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
@@ -6,7 +6,7 @@ import PlayArrowRoundedIcon from "@mui/icons-material/PlayArrowRounded";
 const TrendingMovies = ({ movies }) => {
   const isMoveOkay = useContext(LayoutContext);
   const [sortedTrendingMovies, setSortedTrendingMovies] = useState([]);
-  
+
   useEffect(() => {
     const trendingsSorted = movies.sort(
       (a, b) => b.people_watch - a.people_watch
@@ -28,9 +28,19 @@ const TrendingMovies = ({ movies }) => {
               ).getFullYear()}-free-${index}`}
               key={index}
             >
-              <div className={` group rounded-md min-[320px]:w-full min-[320px]:h-[200px] min-[380px]:h-[240px] min-[450px]:h-[200px] min-[560px]:h-[230px] min-[630px]:h-[250px] min-[700px]:h-[220px] min-[830px]:h-[250px] min-[950px]:h-[230px] min-[1133px]:h-[260px] ${isMoveOkay ? "min-[1200px]:h-[240px]" : "min-[1200px]:h-[300px]"} before:absolute before:inset-0 `}>
+              <div
+                className={` group rounded-md min-[320px]:w-full min-[320px]:h-[200px] min-[380px]:h-[240px] min-[450px]:h-[200px] min-[560px]:h-[230px] min-[630px]:h-[250px] min-[700px]:h-[220px] min-[830px]:h-[250px] min-[950px]:h-[230px] min-[1133px]:h-[260px] ${
+                  isMoveOkay
+                    ? "min-[1200px]:h-[240px]"
+                    : "min-[1200px]:h-[300px]"
+                } before:absolute before:inset-0 `}
+              >
                 <img
-                  className={`rounded-md w-[150px] min-h-[80px] min-w-[130px] min-[320px]:w-full min-[320px]:h-[200px] min-[380px]:h-[240px] min-[450px]:h-[200px] min-[560px]:h-[230px] min-[630px]:h-[250px] min-[700px]:h-[220px] min-[830px]:h-[250px] min-[950px]:h-[230px] min-[1133px]:h-[260px] ${isMoveOkay ? "min-[1200px]:h-[240px]" : "min-[1200px]:h-[300px]"} opacity-1 group-hover:opacity-70 `}
+                  className={`rounded-md w-[150px] min-h-[80px] min-w-[130px] min-[320px]:w-full min-[320px]:h-[200px] min-[380px]:h-[240px] min-[450px]:h-[200px] min-[560px]:h-[230px] min-[630px]:h-[250px] min-[700px]:h-[220px] min-[830px]:h-[250px] min-[950px]:h-[230px] min-[1133px]:h-[260px] ${
+                    isMoveOkay
+                      ? "min-[1200px]:h-[240px]"
+                      : "min-[1200px]:h-[300px]"
+                  } opacity-1 group-hover:opacity-70 `}
                   src={movie.file_location}
                   alt={movie.title}
                 />
